@@ -6,6 +6,10 @@ import model.Driver;
 
 public class ApplicationContext {
 
+    private ApplicationContext() {
+        throw new IllegalStateException("Utility class");
+    }
+
     public static final PostgreUserRepository userRepository = new PostgreUserRepository();
     public static int rowCount = 0;
 

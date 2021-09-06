@@ -7,9 +7,9 @@ import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JDialog;
-import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+import javax.swing.WindowConstants;
 import java.awt.Component;
 import java.awt.Dimension;
 import java.awt.Toolkit;
@@ -41,7 +41,7 @@ public class CreateUserDialog extends JDialog {
 
         rootPanel.add(Box.createVerticalStrut(10));
 
-        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setContentPane(rootPanel);
         setModal(true);
 

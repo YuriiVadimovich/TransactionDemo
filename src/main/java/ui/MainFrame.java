@@ -33,13 +33,9 @@ public class MainFrame extends JFrame {
         showResults.addActionListener(e -> resultTable.setModel(
                 new DriverResultTableModel(ApplicationContext.userRepository.getResults())));
         toolBar.add(showResults);
-
-
-        setVisible(true);
     }
 
-
     public static void main(String[] args) {
-        new MainFrame();
+        new MainFrame().setVisible(true);
     }
 }

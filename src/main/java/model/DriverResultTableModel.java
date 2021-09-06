@@ -63,16 +63,16 @@ public class DriverResultTableModel implements TableModel {
 
     @Override
     public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
-
+        // не нужно реализовывать
     }
 
     @Override
     public void addTableModelListener(TableModelListener l) {
-
+        // не нужно реализовывать
     }
 
     @Override
     public void removeTableModelListener(TableModelListener l) {
-
+        // не нужно реализовывать
     }
 }
